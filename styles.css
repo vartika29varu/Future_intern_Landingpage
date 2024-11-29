@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .hero {
+    background-color: #6c63ff;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #ff6363;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4c4c;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .feature-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 1 1 250px;
+    max-width: 300px;
+  }
+  
+  .feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .service-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    background-color: #e3f2fd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 1 1 250px;
+    max-width: 300px;
+  }
+  
+  .service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 0.9em;
+  }
+  
